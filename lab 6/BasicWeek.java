@@ -1,13 +1,19 @@
 public class BasicWeek {
-    // Initializing variables
-    private String day_1 = "Monday";
     
-    /**
-     * Continue filling variables
-     */
+    private String day_1 = "Monday";
+    private String day1 = "Monday ";
+    private String day2= "Tuesday ";
+    private String day3="Wednesday ";
+    private String day4 = "Thursday ";
+    private String day5 = "Friday ";
+    private String day6 = "Saturday ";
+    private String day7 = "Sunday ";
+    
+    
 
-    // printing out the days
+    
     public void printDays() {
-        System.out.println( /* Insert string to be printed out */ );   
+        System.out.println(day1+day2+day3+day4+day5+day6+day7);   
     }
 }
+

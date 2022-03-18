@@ -13,12 +13,17 @@ public class EntryPoint {
             case 2:
                 AdvancedWeek adv = new AdvancedWeek();
                 adv.printDays2();
+		break;
             case 3:
                 Calculator calc = new Calculator();
-                calc
+                break;
             case 4: 
                 Employee emp = new Employee();
-                
+		
+                System.out.println(emp.toString());
+		break;
+	default:
+		System.out.print("Please enter a number between 1 and 4");
         }
  		
     }
